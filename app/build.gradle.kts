@@ -57,5 +57,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation(project(":app:quicktoast"))
+   // implementation(project(":app:quicktoast"))
+    implementation("com.github.myofficework000:Custom-Toast-Library:1.0.0")
 }
