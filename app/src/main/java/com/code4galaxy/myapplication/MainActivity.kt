@@ -28,7 +28,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-
 @Composable
 fun CustomToastComponent() {
     var showToast by remember { mutableStateOf(false) }
@@ -48,3 +47,18 @@ fun CustomToastComponent() {
         }
     }
 }
+
+/*
+@Composable
+fun HomeScreen() {
+    val toast = LocalToastHostState.current
+    val scope = rememberCoroutineScope()
+
+    Column(Modifier.fillMaxSize(), verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally) {
+        Button(onClick = { scope.launch { toast?.success("Profile updated successfully!") } }) { Text("Show Success") }
+        Spacer(Modifier.height(8.dp))
+        Button(onClick = { scope.launch { toast?.error("Something went wrong") } }) { Text("Show Error") }
+        Spacer(Modifier.height(8.dp))
+        Button(onClick = { scope.launch { toast?.info("Sync in progress…", ToastDuration.Long) } }) { Text("Show Info") }
+    }
+}*/
