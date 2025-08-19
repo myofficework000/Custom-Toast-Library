@@ -63,7 +63,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.code4galaxy"
             artifactId = "quicktoast"
-            version = "2.0.0"
+            version = "3.0.0"
 
             afterEvaluate {
                 from(components["release"])
