@@ -4,7 +4,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/myofficework000/Custom-Toast-Library?style=social)  
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 
-# Custom Toast Library 🍞✨
+# Custom Toast Library
 
 A lightweight and customizable Android library for displaying beautiful and interactive toast messages.  
 This library enhances the native Android Toast with modern UI, animations, and flexible customization options.  
